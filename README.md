@@ -12,8 +12,9 @@
 
 ## 安装
 
-独立仓库：**<https://github.com/Joreh-T/pardon.nvim>**（源码同源于
-[pardon](https://github.com/Joreh-T/pardon) 主仓库的 `nvim/` 目录）。
+独立仓库：**<https://github.com/Joreh-T/pardon.nvim>**——本仓库即插件
+本体，同时作为 git submodule 挂载于 [pardon](https://github.com/Joreh-T/pardon)
+主仓库的 `nvim/` 路径（在主仓库内改动插件需两步提交，见其 README 开发节）。
 
 lazy.nvim / LazyVim（在 `lua/plugins/` 下新建，如 `pardon.lua`）：
 
